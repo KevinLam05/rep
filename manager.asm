@@ -1,16 +1,16 @@
-//Kevin Lam
+;Kevin Lam
 
-//Your cwid: 1097
+;Your cwid: 1097
 
-//Your section number: 240-3
+;Your section number: 240-3
 
-//kevinlawc@csu.fullerton.edu
+;kevinlawc@csu.fullerton.edu
 
-//April 23
+;April 23
 
-//Identifier: Final program.
+;Identifier: Final program.
 
-//-----------------CODE---------------------------
+;-----------------CODE---------------------------
 extern printf
 extern scanf
 extern getqword
