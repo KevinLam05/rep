@@ -17,18 +17,18 @@ extern getqword
 
 global manager
 
-segment .data
+section .data
     number      dq -17
     prompt      db "Please enter an address in hex: ", 0
     hex_fmt     db "%lx", 0
     out_fmt     db "The integer at that address is %016lx", 10, 0
     finish_msg  db "Function getqword has finished. A number will be returned to the driver.", 10, 0
 
-segment .bss
+section .bss
     input_addr  resq 1
     user_val    resq 1
 
-segment .text
+section .text
 manager:
     push rbp
     mov rbp, rsp

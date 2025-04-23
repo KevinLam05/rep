@@ -11,10 +11,11 @@
 //Identifier: Final program.
 
 //-----------------CODE---------------------------
-global getqword
+global getqword  ; Declare global symbol for external use
 
-segment .text
+section .text
 getqword:
     ; rdi contains address
     mov rax, [rdi]  ; Load 8 bytes from address in rdi
     ret
+
